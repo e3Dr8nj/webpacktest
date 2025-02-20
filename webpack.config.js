@@ -29,11 +29,11 @@ export default  {
     extensions: ['.tsx', '.ts', '.js'],
   },
   output: {
-    path: path.resolve(__dirname, 'dist'),
+    path: path.resolve(__dirname,'test', 'dist'),
     filename: 'index_bundle.js'
   },
   devServer: {
-    static: path.resolve(__dirname, 'dist'),
+    static: path.resolve(__dirname,'test', 'dist'),
     port: 8080,
     hot: true
   },
